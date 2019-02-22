@@ -11135,10 +11135,10 @@ module.exports = function (h, modules, classes, slots) {
           {
             attrs: { colspan: this.colspan }
           },
-          [perpage, modules.pagination((0, _merge2.default)(classes.pagination, {
+          [h('div', [perpage, modules.pagination((0, _merge2.default)(classes.pagination, {
             list: classes.pagination.list + ' ' + classes.right + ' ' + classes.nomargin,
             count: '' + classes.left
-          }))]
+          }))])]
         )])]), slots.beforeBody, h('tbody', [slots.prependBody, modules.rows(classes), slots.appendBody]), slots.afterBody]
       )]
     ), slots.afterTable]
