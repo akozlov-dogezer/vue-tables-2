@@ -11097,7 +11097,7 @@ module.exports = function (h, modules, classes, slots) {
     [modules.columnsDropdown(classes)]
   ) : '';
 
-  var shouldShowTop = genericFilter || perpage || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
+  var shouldShowTop = genericFilter || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
 
   var tableTop = h(
     'div',
@@ -11116,7 +11116,7 @@ module.exports = function (h, modules, classes, slots) {
       ), h(
         'div',
         { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
-        [slots.beforeLimit, perpage, slots.afterLimit]
+        [slots.beforeLimit, slots.afterLimit]
       ), columnsDropdown]
     )]
   );
@@ -11135,7 +11135,7 @@ module.exports = function (h, modules, classes, slots) {
           {
             attrs: { colspan: this.colspan }
           },
-          [modules.pagination((0, _merge2.default)(classes.pagination, {
+          [perpage, modules.pagination((0, _merge2.default)(classes.pagination, {
             list: classes.pagination.list + ' ' + classes.right + ' ' + classes.nomargin,
             count: '' + classes.left
           }))]
