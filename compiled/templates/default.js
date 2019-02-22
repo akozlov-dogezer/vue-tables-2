@@ -65,7 +65,7 @@ module.exports = function (h, modules, classes, slots) {
 
   var footerHeadings = this.opts.footerHeadings ? h('tfoot', [h('tr', [modules.headings(classes.right)])]) : '';
 
-  var shouldShowTop = genericFilter || perpage || dropdownPagination || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
+  var shouldShowTop = genericFilter || dropdownPagination || columnsDropdown || slots.beforeFilter || slots.afterFilter || slots.beforeLimit || slots.afterLimit;
 
   var tableTop = h(
     'div',
@@ -84,7 +84,7 @@ module.exports = function (h, modules, classes, slots) {
       ), h(
         'div',
         { 'class': classes.field + ' ' + classes.inline + ' ' + classes.right + ' VueTables__limit' },
-        [slots.beforeLimit, perpage, slots.afterLimit]
+        [slots.beforeLimit, slots.afterLimit]
       ), dropdownPagination, columnsDropdown]
     )]
   );
@@ -100,7 +100,7 @@ module.exports = function (h, modules, classes, slots) {
         { 'class': 'VueTables__table ' + (this.opts.skin ? this.opts.skin : classes.table) },
         [h('thead', [h('tr', [modules.headings(classes.right)]), slots.beforeFilters, modules.columnFilters(classes), slots.afterFilters]), footerHeadings, slots.beforeBody, h('tbody', [slots.prependBody, modules.rows(classes), slots.appendBody]), slots.afterBody]
       )]
-    ), slots.afterTable, modules.pagination((0, _merge2.default)(classes.pagination, {
+    ), slots.afterTable, perpage, modules.pagination((0, _merge2.default)(classes.pagination, {
       wrapper: classes.row + ' ' + classes.column + ' ' + classes.contentCenter,
       nav: classes.center,
       count: classes.center + ' ' + classes.column
