@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="161a77c2-5552-4ec2-bd1e-b38bd94ddd7c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/compiled/bus.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/all-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/colspan.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/custom-q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/filterable-columns.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/filtered-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/filtered-query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/has-child-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/has-generic-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/list-columns-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/opts.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/q.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/storage.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/table-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/templates-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/computed/total-pages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/config/defaults.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/directives/input.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/directives/select.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/custom-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/format-date.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/highlight-matches.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/option-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/filters/set-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/add-has-module-to-vuex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/array-diff.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/is-empty.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/is-valid-moment-object.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/object-filled-keys-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/object-keys.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/helpers/ucfirst.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/apply-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/child-row-toggler-class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/client-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/column-class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/currently-sorted.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/date-format.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/default-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/dispatch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/display.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/filterable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-child-row-template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-column-name.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-group-slot.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-heading-tooltip.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-heading.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-initial-date-range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-name.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-open-child-rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-response-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-sort-fn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/get-value.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/has-date-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-custom-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-date-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-options.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-order-by.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-query.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/init-state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/initial-order-ascending.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/is-date-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/is-list-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/is-text-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/on-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/only-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/order-by-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/refresh.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/register-client-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/register-server-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/render.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/row-was-clicked.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/send-request.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/server-search.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-columns-dropdown-close-listener.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-date-filter-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-datepicker-text.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-filters-dom.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-limit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-order.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/set-user-multi-sort.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/sortable-chevron-class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/sortable-class.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/sortable.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/toggle-child-row.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/toggle-column.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/toggle-columns-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/toggle-group-direction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/toggle-sort-direction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/transform-date-strings-to-moment.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/methods/update-state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/before-destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/computed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/created.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/directives.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/mixins/methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/column-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/columns-dropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/date-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/dropdown-item-wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination-count.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/dropdown-wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/list-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/no-results.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page-values.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page-wrapper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/rows.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/sort-control.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/modules/text-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/slots.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/data.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/mutations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/normal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/register-module.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/state/vuex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/template-compiler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/template/column-filters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/template/date-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/template/list-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/template/text-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/modules/footer-headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap3/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/modules/footer-headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bootstrap4/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/modules/footer-headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/bulma/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/modules/footer-headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/common/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/default.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/templates/footer-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/bootstrap3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/bootstrap3/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/bootstrap4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/bulma.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/bulma/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/modules/dropdown-pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/modules/footer-headings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/modules/normal-filter.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/modules/pagination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/modules/per-page.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/themes/common/template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/v-client-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/compiled/v-server-table.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vue-tables-2.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/vue-tables.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/templates/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/templates/default.js" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1289906003">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="js" value="10" />
+          <entry key="json" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JSON" value="1" />
+          <entry key="JavaScript" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JavaScript" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-400" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/themes/bulma.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/themes/bootstrap4.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="23" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/modules/per-page-wrapper.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/templates/footer-pagination.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>compiled</find>
+      <find>per-page-</find>
+      <find>per-page-wrapper</find>
+      <find>perpageValues</find>
+      <find>perpage</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Projects\vue-tables-2</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/lib/templates/default.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="276" />
+    <option name="y" value="374" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vue-tables-2" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vue-tables-2" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.Build">
+    <configuration name="Build Dev" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dist-dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Build Prod" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build-dist" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Build" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="Install" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="install" />
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.Install" />
+      <item itemvalue="npm.Build Prod" />
+      <item itemvalue="npm.Build" />
+      <item itemvalue="npm.Build Dev" />
+    </list>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="161a77c2-5552-4ec2-bd1e-b38bd94ddd7c" name="Default Changelist" comment="" />
+      <created>1550844979463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550844979463</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Python Console" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="SciView" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-400" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/themes/bulma.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiled/templates/bootstrap3/template.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiled/themes/bootstrap3/template.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/compiled/templates/bootstrap4/template.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/themes/bootstrap4.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/modules/per-page-wrapper.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="42" lean-forward="true" selection-start-line="6" selection-start-column="42" selection-end-line="6" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/templates/footer-pagination.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/templates/default.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
