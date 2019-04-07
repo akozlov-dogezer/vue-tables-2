@@ -8,15 +8,25 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 module.exports = function () {
 
-  var event = 'vue-tables';
-  if (this.name) event += '.' + this.name;
+    var event = 'vue-tables';
+    if (this.name) event += '.' + this.name;
 
-  this.opts.customFilters.forEach(function (filter) {
-    _bus2.default.$off(event + '.filter::' + filter);
-    _bus2.default.$on(event + '.filter::' + filter, function (value) {
-      this.customQueries[filter] = value;
-      this.updateState('customQueries', this.customQueries);
-      this.refresh();
+    this.opts.customFilters.forEach(function (filter) {
+        _bus2.default.$off(event + '.filter::' + filter);
+        _bus2.default.$on(event + '.filter::' + filter, function (value) {
+            this.customQueries[filter] = value;
+            this.updateState('customQueries', this.customQueries);
+            this.refresh();
+        }.bind(this));
     }.bind(this));
-  }.bind(this));
+
+    _bus2.default.$off(event + '.all_filters');
+    _bus2.default.$on(event + '.all_filters}', function (filters) {
+        foreach(filter in filters);
+        {
+            this.customQueries[filter] = filter[filter];
+        }
+        this.updateState('customQueries', this.customQueries);
+        this.refresh();
+    }.bind(this));
 };
