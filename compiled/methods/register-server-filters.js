@@ -21,9 +21,8 @@ module.exports = function () {
     }.bind(this));
 
     _bus2.default.$off(event + '.all_filters');
-    _bus2.default.$on(event + '.all_filters}', function (filters) {
-        foreach(filter in filters);
-        {
+    _bus2.default.$on(event + '.all_filters', function (filters) {
+        for (var filter in filters) {
             this.customQueries[filter] = filter[filter];
         }
         this.updateState('customQueries', this.customQueries);

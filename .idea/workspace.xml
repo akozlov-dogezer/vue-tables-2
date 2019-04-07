@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="161a77c2-5552-4ec2-bd1e-b38bd94ddd7c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/dist/vue-tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vue-tables.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/methods/register-server-filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/lib/methods/register-server-filters.js" afterDir="false" />
-    </list>
+    <list default="true" id="161a77c2-5552-4ec2-bd1e-b38bd94ddd7c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -325,7 +322,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.Build Prod">
+  <component name="RunManager" selected="npm.Build Dev">
     <configuration name="Build Dev" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
